@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de Música para Niños</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDF6E3; /* Fondo suave */
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #86A8E7; /* Azul pastel */
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header img {
+            position: absolute;
+            height: 80px;
+            top: 10px;
+            right: 20px;
+            opacity: 0.8;
+        }
+
+        /* Navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FFAD60; /* Amarillo pastel */
+        }
+
+        nav a {
+            padding: 15px 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #F76C5E; /* Rojo pastel */
+            border-radius: 5px;
+        }
+
+        /* Sección principal */
+        .main-content {
+            padding: 30px 20px;
+            text-align: center;
+            background-color: #FFF8E1;
+        }
+
+        .main-content h2 {
+            color: #F76C5E;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .main-content p {
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        .main-content img {
+            margin-top: 20px;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Sección de servicios */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .service-card {
+            background-color: #86A8E7; /* Azul pastel */
+            border: 3px solid #FFAD60;
+            border-radius: 20px;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card h3 {
+            margin: 0;
+            color: #FFF1E1;
+            font-size: 1.5em;
+        }
+
+        .service-card img {
+            width: 80px;
+            margin: 10px 0;
+        }
+
+        .service-card p {
+            color: #FFF8E1;
+            font-size: 0.9em;
+        }
+
+        /* Sección de beneficios */
+        .benefits {
+            background-color: #FDF6E3;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .benefits h2 {
+            color: #86A8E7;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .benefits-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .benefit-card {
+            background-color: #FFF8E1;
+            border: 2px solid #FFAD60;
+            border-radius: 15px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefit-card img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .benefit-card h3 {
+            color: #F76C5E;
+            font-size: 1.3em;
+        }
+
+        .benefit-card p {
+            font-size: 0.95em;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #FFAD60;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>¡Música para Pequeños Artistas!</h1>
+        <img src="https://img.icons8.com/clouds/100/000000/musical-notes.png" alt="Notas musicales">
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Clases</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- Sección principal -->
+    <section class="main-content">
+        <h2>¡Explora el Mundo de la Música!</h2>
+        <p>Clases diseñadas para niños, donde pueden aprender a tocar instrumentos, cantar y disfrutar de la música mientras se divierten. ¡Nuestro objetivo es hacer que cada niño descubra el músico que lleva dentro!</p>
+        <img src="https://img.icons8.com/external-flat-juicy-fish/344/external-kids-playground-flat-flat-juicy-fish.png" alt="Niños tocando música">
+    </section>
+
+    <!-- Sección de servicios -->
+    <section class="services">
+        <div class="service-card">
+            <img src="https://img.icons8.com/doodle/48/000000/guitar.png" alt="Guitarra">
+            <h3>Clases de Guitarra</h3>
+            <p>Aprende a tocar la guitarra de forma divertida con canciones infantiles y juegos.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://img.icons8.com/doodle/48/000000/piano.png" alt="Piano">
+            <h3>Clases de Piano</h3>
+            <p>Descubre las notas y toca canciones simples para comenzar tu aventura musical.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://img.icons8.com/doodle/48/000000/violin.png" alt="Violín">
+            <h3>Clases de Violín</h3>
+            <p>Aprende a tocar el violín con técnicas adaptadas a los niños, ¡con mucha paciencia y amor!</p>
+        </div>
+        <div class="service-card">
+            <img src="https://img.icons8.com/doodle/48/000000/microphone.png" alt="Canto">
+            <h3>Clases de Canto</h3>
+            <p>¡Canta tus canciones favoritas y mejora tu voz con nuestros divertidos ejercicios vocales!</p>
+        </div>
+    </section>
+
+    <!-- Sección de beneficios -->
+    <section class="benefits">
+        <h2>Beneficios de la Música en la Niñez</h2>
+        <div class="benefits-content">
+            <div class="benefit-card">
+                <img src="https://img.icons8.com/external-flat-juicy-fish/64/000000/brain.png" alt="Cognitivo">
+                <h3>Desarrollo Cognitivo</h3>
+                <p>La música mejora la memoria, la atención y las habilidades de resolución de problemas.</p>
+            </div>
+            <div class="benefit-card">
+                <img src="https://img.icons8.com/external-flat-juicy-fish/64/000000/emotional-intelligence.png" alt="Emocional">
+                <h3>Expresión Emocional</h3>
+                <p>Ayuda a los niños a expresar sus emociones y a reducir el estrés.</p>
+            </div>
+            <div class="benefit-card">
+                <img src="https://img.icons8.com/external-flat-juicy-fish/64/000000/people-together.png" alt="Social">
+                <h3>Habilidades Sociales</h3>
+                <p>Fomenta el trabajo en equipo y la comunicación con otros niños.</p>
+            </div>
+            <div class="benefit-card">
+                <img src="https://img.icons8.com/external-flat-juicy-fish/64/000000/fine-motor-skills.png" alt="Motor">
+                <h3>Desarrollo Motor</h3>
+                <p>Mejora la coordinación y las habilidades motoras finas a través del uso de instrumentos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Clases de Música para Niños - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
